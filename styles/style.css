@@ -31,7 +31,7 @@ img {
 
 body, html {
     font: 500 'Red Hat Display', sans-serif ;   
-    background: url('../images/pattern-background-mobile.svg') no-repeat hsl(224, 100%, 92%);
+    background: url('../images/pattern-background-desktop.svg') no-repeat  hsla(224, 100%, 92%, 0.589);
     height: 100vh;
     font-size: 16px;
 
@@ -112,6 +112,8 @@ body, html {
 
     padding-right: 2rem;
     padding-left: 2rem;
+
+   
    
 
 
@@ -126,6 +128,7 @@ body, html {
 
     align-content: center;
     text-align: center;
+    margin-bottom:1rem;
   
    
    }
@@ -133,6 +136,7 @@ body, html {
   
   h2.title {
     color: hsl(229, 68%, 31%);
+    font-size: 1.5rem ;
     font-weight: 900;
 
    }
@@ -152,7 +156,7 @@ body, html {
     gap: 2rem;  
   align-items: center;  
   justify-content: center;
-  margin-bottom: 0.25rem;
+  margin-bottom: 1.5rem;
   }
   
   .box-anual-plan a.change {
@@ -204,6 +208,8 @@ body, html {
     text-align: center;
     display: grid;
     grid-auto-flow: row;
+    margin-bottom:1rem;
+
    
   }
   
@@ -218,7 +224,7 @@ body, html {
   }
   
   .buttons a.button-payment {
-  background-color: hsl(229, 68%, 31%) ;
+  background-color: hsla(273, 68%, 31%, 0.945) ;
   color: white;
 
   
@@ -226,7 +232,7 @@ body, html {
   
   .buttons a.button-payment:hover {
     background-color: hsla(253, 68%, 41%, 0.705) ;
-    box-shadow: inset 0 0 0.2em hsla(271, 77%, 51%, 0.521), 0 0 0.2em hsla(271, 77%, 51%, 0.486);
+    box-shadow: inset 0 0 0.2em hsla(271, 77%, 51%, 0.521), 0 0 0.2em hsla(271, 77%, 51%, 0.623);
   
     
   
