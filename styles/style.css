@@ -1,0 +1,260 @@
+/*====RESET=======*/
+
+* {
+    border: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+}
+
+img {
+    width: 100%;
+  
+}
+
+/*====VARIABLES=======*/
+
+:root {
+
+    /* fonts */
+    font-family: 'Red Hat Display', sans-serif;
+ 
+ }
+
+
+/*====BASE=======*/
+
+body, html {
+    font: 500 'Red Hat Display', sans-serif ;   
+    background: url('../images/pattern-background-mobile.svg') no-repeat hsl(224, 100%, 92%);
+    height: 100vh;
+    font-size: 16px;
+
+    
+  }
+  
+  a {
+    color: hsl(228, 45%, 44%); 
+    font-weight: 500;
+  }
+  
+  a:hover {
+    color: hsl(228, 45%, 52%); 
+  
+  }
+  
+
+/*====LAYOUT=======*/
+
+#container {
+
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    z-index: 0;
+
+
+}
+
+
+#content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+ 
+    z-index: 1;
+}
+
+#card-order {
+    position: relative;
+    display: grid;
+    flex-direction: column;
+
+    height: fit-content;
+    width: 20.43rem;
+    background-color: white;
+
+
+    border-radius: 1.5rem;
+    background: white;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    
+
+}
+
+
+
+#card-header {
+    height: 10rem;
+    border-radius: 1.5rem 1.5rem 0 0;
+    margin-bottom: 0.5rem;
+
+
+
+}
+
+#card-header span img.img-header{
+    height: 100%;
+    border-radius: 1.5rem 1.5rem 0 0;
+
+   }
+
+   #card-body {
+
+    padding-right: 2rem;
+    padding-left: 2rem;
+   
+
+
+}
+
+
+
+
+ /*====DIV TEXT=======*/
+
+ .card-text {
+
+    align-content: center;
+    text-align: center;
+  
+   
+   }
+  
+  
+  h2.title {
+    color: hsl(229, 68%, 31%);
+    font-weight: 900;
+
+   }
+  
+   p.subtitle {
+    color:hsla(226, 75%, 24%, 0.61);
+   }
+  
+  /*====BOX ANNUAL PLAN=======*/
+  .box-anual-plan {
+    display: grid;
+    grid-auto-flow: column;
+    background-color:hsla(0, 0%, 89%, 0.178);
+    border-radius: 0.75rem;
+    padding: -0.5rem;
+
+    gap: 2rem;  
+  align-items: center;  
+  justify-content: center;
+  margin-bottom: 0.25rem;
+  }
+  
+  .box-anual-plan a.change {
+  
+    font-size: 0.85rem;
+    color: blue;
+  
+    font-weight: 700;
+   
+  }
+  
+  .box-anual-plan a.change:hover {
+    color: rgba(20, 20, 248, 0.651);
+  
+  }
+  
+  .box-anual-plan img {
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  /*Annual value*/
+  
+  .annual-value {
+
+ display: grid;
+ grid-auto-flow: row;
+  
+  
+  }
+  
+  .box-anual-plan h3 {
+    font-weight: 600;
+  
+    margin-bottom: -1rem;
+  }
+  
+  .box-anual-plan p.value {
+  font-weight: normal;
+  color:hsla(226, 75%, 24%, 0.61);
+
+  }
+  
+  
+  
+  /*==== BUTTONS =======*/
+  .buttons {
+    align-content: center;
+    text-align: center;
+    display: grid;
+    grid-auto-flow: row;
+   
+  }
+  
+  
+  .buttons a {
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border-radius: .75rem;  
+  }
+  
+  .buttons a.button-payment {
+  background-color: hsl(229, 68%, 31%) ;
+  color: white;
+
+  
+  }
+  
+  .buttons a.button-payment:hover {
+    background-color: hsla(253, 68%, 41%, 0.705) ;
+    box-shadow: inset 0 0 0.2em hsla(271, 77%, 51%, 0.521), 0 0 0.2em hsla(271, 77%, 51%, 0.486);
+  
+    
+  
+  }
+  
+  .buttons a.button-cancel{
+    color: hsla(229, 68%, 31%, 0.651) ;
+    background-color: rgb(255, 255, 255);
+    font-weight: 700;
+  }
+  
+  .buttons a.button-cancel:hover {
+    color: hsla(229, 84%, 5%, 0.877);
+  
+  }
+  
+  /*==== FOOTER =======*/
+  
+
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  
