@@ -4,6 +4,6 @@
 ##
 <div align="center">- To contact me ✌️ 👇👇 <br> <br> </div>
 <div align="center">
-<a href="https://www.linkedin.com/in/lucas-silva-bezerra-6223681b4/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+<a href="https://www.linkedin.com/in/lucas-silva-bezerra/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
   </div>
 
